@@ -29,7 +29,7 @@ export TRUSTY_REF_TARGET=linux_trusty
 
 .PHONY: all trusty trusty_ca clean
 
-all: trusty trusty_ca
+all: trusty trusty_ca testpart
 
 trusty:
 	@echo '****************************************************************'
